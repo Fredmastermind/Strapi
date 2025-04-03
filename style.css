@@ -1,0 +1,22 @@
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: black;
+    background-color: rgb(252, 136, 87);
+    padding: 11px;
+    border-radius: 1em;
+    text-align: center;
+    box-shadow: 5px 6px 8px rgba(0, 0, 0, 0.5);
+}
+
+details {
+    background-color: rgb(68, 114, 255);
+    padding: 14px 20px;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+
+}
