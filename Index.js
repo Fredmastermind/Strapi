@@ -21,9 +21,13 @@ async function showDocument(doc) {
     document.querySelector('#Nyheter').innerHTML += `
         <h2>${(doc.Tittel)}</h2>
         <details>
+            <br>
+            <date>${(doc.Dato)}</date>
+            <p>${(doc.Forfatter)}</p>
             <summary>${(doc.Ingress)}</summary>
             <p>${doc.Innhold}</p>
             <img src="${doc.Bilde.formats.large.url}" alt="${(doc.Tittel)}">
         </details>
+        <br>
     `
 }
